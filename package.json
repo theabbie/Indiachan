@@ -1,0 +1,32 @@
+{
+  "name": "indiachan",
+  "version": "0.1.0",
+  "description": "India's uncensored community where your voice is truly free",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.0.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "ioredis": "^5.4.1",
+    "mongodb": "^6.11.0",
+    "next": "^15.5.0",
+    "otpauth": "^9.3.4",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}

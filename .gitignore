@@ -137,3 +137,13 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Reference repository (for porting only)
+jschan-reference/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+.env.production
+.vercel
